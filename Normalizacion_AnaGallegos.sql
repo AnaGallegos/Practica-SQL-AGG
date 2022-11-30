@@ -39,6 +39,13 @@ insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) val
 insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('33333','01-04-2022','01-04-2023','LINEA DIRECTA');
 insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('44444','01-05-2022','01-05-2023','MAPFRE');
 insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('55555','01-06-2022','01-06-2023','MUTUA MADRILEÑA');
+insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('66666','01-07-2022','01-07-2023','MUTUA MADRILEÑA');
+insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('77777','01-07-2022','01-07-2023','MUTUA MADRILEÑA');
+insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('88888','01-07-2022','01-07-2023','MUTUA MADRILEÑA');
+insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('99999','01-05-2022','01-05-2023','MAPFRE');
+insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('10100','01-04-2022','01-04-2023','LINEA DIRECTA');
+insert into car_database.poliza (id_poliza, f_inicio, f_fin, id_aseguradora) values('11011','01-04-2022','01-04-2023','LINEA DIRECTA');
+
 
 
 
@@ -139,6 +146,13 @@ insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometr
 insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_P_208','1111BBB','AZUL','01-01-2020','40000','22222');
 insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('VW_V_GOLF','2222CCC','ROJO','01-01-2020','100000','33333');
 insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('VW_A_TT','3333DDD','ROJO','01-01-2020','2000','44444');
+insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_P_EXP','4444DDD','ROJO','01-01-2020','2000','66666');
+insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_P_EXP','5555CFD','ROJO','01-01-2020','2000','77777');
+insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_C_C3','6666QRD','VERDE','01-01-2020','2000','88888');
+insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_C_C3','7777TGR','AMARILLO','01-01-2020','2000','99999');
+insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_C_C3','8888PLR','ROJO','01-01-2020','2000','10100');
+insert into car_database.coches (id_modelo, matricula,id_color,f_compra,kilometros,id_poliza) values('PSA_P_208','9999LML','ROJO','01-01-2020','2000','11011');
+
 
 
 -- Empezamos con REVISIONES -------------
@@ -184,3 +198,10 @@ insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe
 insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('3','01-06-2020','50000','80','USD');
 insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('3','01-12-2020','100000','40','EUR');
 insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('4','01-06-2020','2000','50','EUR');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('5','01-06-2020','2000','50','EUR');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('6','01-12-2020','50000','70','EUR');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('7','01-06-2020','30000','50','EUR');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('8','01-12-2020','40000','60','USD');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('9','01-06-2020','50000','80','USD');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('9','01-12-2020','100000','40','EUR');
+insert into car_database.revisiones (id_coche, f_revision,kilometros_rev,importe,id_moneda) values('10','01-06-2020','2000','50','EUR');
