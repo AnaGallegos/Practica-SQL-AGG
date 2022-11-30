@@ -6,21 +6,10 @@
 
 ## Objectives
 In KeepCoding we want to manage the fleet of company vehicles, controlling the models of the cars, the brands and the business group of the brand (for example VW SEAT, Audi etc. belong to the VAN group)
-Of the cars we also need to know the color of the car, its license plate, the total number of kilometers it has, the insurance company (Mapfre, MMT, AXA etc), the number of
-policy, date of purchase etc.
-In addition, we want to control the revisions of each car that have been carried out on the car, knowing the Kms it had at the time of the revision, the date of the revision and the amount of the revision.
+Also we also need to know the color of the cars, its license plate, the total number of kilometers it has, the insurance company (Mapfre, MMT, AXA etc), insurance number, date of purchase etc.
+In addition, we want to control the revisions of each car that have been carried out on it, knowing the Kms it had at the time, the date and the amount of the revision.
 
 
-Design a normalized ER model for a car rental company
-Load the data into the tables
-Create a SQL query that, for each car, gives us:
-it's model, brand and the company that owns said brand
-it's purchase date
-it's license plate
-it's color
-it's mileage
-it's insurance number
-the name of the insurance company where the car is insured
 <ul>
   <li>Design a normalized ER model for a car rental company</li>
   <li>Load the data into the tables</li>
